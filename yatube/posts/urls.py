@@ -7,5 +7,5 @@ urlpatterns = [
     # Страница сгрупповыми постами
     path('posts/', views.group_posts),
     # Отдельная страница с полным текстом поста
-    path('posts/<slug:slug>/', views.posts_detail),
+    path('posts/<slug:pk>/', views.posts_detail),
 ] 

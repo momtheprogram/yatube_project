@@ -8,7 +8,7 @@ def index(request):
     return HttpResponse('Главная страница')
 
 
-# Страница со списком мороженого
+# Страница c постами, отфильтрованными по группам.
 def group_posts(request):
     return HttpResponse('Групповые посты')
 
